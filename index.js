@@ -53,7 +53,7 @@ function removeFromCart(item) {
   }
 
   for (let i = 0; i < cart.length; i++) {
-    if (check() = true) {
+    if (check()) {
       cart = cart.splice(i,1);
       return cart;
     }
