@@ -43,8 +43,7 @@ function total() {
     for (let i = 0; i < cart.length; i++) {
       total = total + cart[i].itemPrice;
     }
-    var totalStore = total;
-    return (totalStore);
+    return (total);
 }
 
 function removeFromCart(item) {
