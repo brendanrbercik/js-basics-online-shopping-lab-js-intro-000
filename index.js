@@ -42,11 +42,9 @@ function viewCart() {
 function total() {
     var total = 0;
     for (let i = 0; i < cart.length; i++) {
-    total = total + cart[i].itemPrice;
-  }
-  
-  return (objTotal.total);
-  console.log(objTotal.toal);
+      total = total + cart[i].itemPrice;
+    }
+    return (total);
 }
 
 function removeFromCart(item) {
