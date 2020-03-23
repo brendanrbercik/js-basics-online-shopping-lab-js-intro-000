@@ -42,9 +42,9 @@ function viewCart() {
 function total() {
     //var total = 0;
     for (let i = 0; i < cart.length; i++) {
-    objTotal.total + cart[i].itemPrice;
+    objTotal.total = objTotal.total + cart[i].itemPrice;
   }
-  return (newTotal);
+  return (objTotal.total);
 }
 
 function removeFromCart(item) {
