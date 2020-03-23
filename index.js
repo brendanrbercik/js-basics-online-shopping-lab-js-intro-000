@@ -57,7 +57,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if exists(cardNumber) {
+  if (cardNumber !== undefined) {
   return("Your total cost is " + total().total + ", which will be charged to the card " + cardNumber +".")
   }
   else {
