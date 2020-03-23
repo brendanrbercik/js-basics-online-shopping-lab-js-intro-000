@@ -40,8 +40,9 @@ function viewCart() {
 }
 
 function total() {
+    var total = 0;
     for (let i = 0; i < cart.length; i++) {
-    total = objTotal.total + cart[i].itemPrice;
+    total = total + cart[i].itemPrice;
   }
   return (total);
 }
