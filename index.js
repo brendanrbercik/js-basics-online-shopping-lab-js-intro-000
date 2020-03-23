@@ -41,9 +41,9 @@ function viewCart() {
 
 function total() {
     for (let i = 0; i < cart.length; i++) {
-    objTotal.total = objTotal.total + cart[i].itemPrice;
+    total = objTotal.total + cart[i].itemPrice;
   }
-  return (objTotal.total);
+  return (total);
 }
 
 function removeFromCart(item) {
