@@ -48,8 +48,12 @@ function total() {
 
 function removeFromCart(item) {
 
+  function check() {
+    item == cart[i];
+  }
+
   for (let i = 0; i < cart.length; i++) {
-    if (check(item == cart[i]) = true) {
+    if (check() = true) {
       cart = cart.splice(i,1);
       return cart;
     }
