@@ -47,14 +47,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-var i = 0;
-  function check() {
-    item == cart[i];
-    return true;
-  }
-
   for (let i = 0; i < cart.length; i++) {
-    if (check()) {
+    if (item = cart[i]) {
       cart = cart.splice(i,1);
       return cart;
     }
