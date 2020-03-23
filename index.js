@@ -50,7 +50,7 @@ function removeFromCart(item) {
 
   for (let i = 0; i < cart.length; i++) {
     if (item == cart[i]) {
-      cart = cart.slice(i,i);
+      cart = cart.splice(i,1);
       return cart;
     }
   }
