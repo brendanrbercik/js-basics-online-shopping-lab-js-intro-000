@@ -50,6 +50,7 @@ function removeFromCart(item) {
 
   function check() {
     item == cart[i];
+    return true;
   }
 
   for (let i = 0; i < cart.length; i++) {
