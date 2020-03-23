@@ -46,6 +46,7 @@ function total() {
     objTotal.total = objTotal.total + cart[i].itemPrice;
   }
   return (objTotal.total);
+  console.log(objTotal.toal);
 }
 
 function removeFromCart(item) {
